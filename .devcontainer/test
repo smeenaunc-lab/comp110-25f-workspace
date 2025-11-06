@@ -1,0 +1,6 @@
+def perimeter(width: int, height: int) -> int:
+    return 2 * (width + height)
+
+
+print(perimeter(5, 10))  # Output: 30
+perimeter(3, 4)  # Output: 14
